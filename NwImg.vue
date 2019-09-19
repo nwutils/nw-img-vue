@@ -98,7 +98,7 @@ export default {
         return '';
       }
       const path = window.require('path');
-      return path.join(window.nw.App.dataPath, 'nw-imag-cache');
+      return path.join(window.nw.App.dataPath, 'nw-img-cache');
     },
     cachedImage: function () {
       if (!this.nw) {
