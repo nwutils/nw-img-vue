@@ -101,7 +101,7 @@ export default {
       return path.join(window.nw.App.dataPath, 'nw-img-cache');
     },
     cachedImage: function () {
-      if (!this.nw) {
+      if (!this.isNw) {
         return '';
       }
       const path = window.require('path');
