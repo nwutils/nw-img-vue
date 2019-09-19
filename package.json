@@ -1,0 +1,23 @@
+{
+  "name": "nw-img-vue",
+  "version": "1.0.0",
+  "description": "Cache online images locally and load cached offline images",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwutils/nw-img-vue.git"
+  },
+  "keywords": [
+    "NW.js",
+    "Vue",
+    "images",
+    "caching",
+    "offline"
+  ],
+  "author": "The Jared Wilcurt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwutils/nw-img-vue/issues"
+  },
+  "homepage": "https://github.com/nwutils/nw-img-vue#readme"
+}
