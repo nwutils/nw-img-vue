@@ -20,7 +20,7 @@ Caches copies of online images locally and loads them first if available
 
 ## Usage:
 
-1. `npm install --save nw-img-vue`
+1. `npm install --save-dev nw-img-vue`
 1. In `main.js` add this:
     ```js
     import NwImg from 'nw-img-vue';
