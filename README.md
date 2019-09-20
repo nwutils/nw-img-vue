@@ -3,19 +3,7 @@
 Caches copies of online images locally and loads them first if available
 
 
-## How this works:
-
-
-### In NW.js
-
-* Checks for a local cached copy in Appliction Data folder (`window.nw.App.dataPath + '\nw-img-cache\'`)
-* If no local version exists, downloads the image to cache
-* Always display image from cache (to prevent double-downloading)
-
-
-### In Browsers
-
-* If `window.nw` or `window.require` is not detected, just passes the URL directly into an `img` tag. No caching is performed. Useful for codebases that are used for Web and Desktop builds.
+* * *
 
 
 ## Usage:
@@ -36,3 +24,29 @@ Caches copies of online images locally and loads them first if available
         ```
 
 You can also just download the `NwImg.vue` file directly from GitHub and drop it in your project. It is completely self-contained and requires no dependencies.
+
+
+* * *
+
+
+Works well with **NW.js Vue-CLI Example**:
+
+* https://github.com/nwutils/nw-vue-cli-example
+
+
+* * *
+
+
+## How this works:
+
+
+### In NW.js
+
+* Checks for a local cached copy in the OS's appliction data folder (`window.nw.App.dataPath + '\nw-img-cache\'`)
+* If no local version exists, downloads the image to cache
+* Always display image from cache (to prevent double-downloading)
+
+
+### In Browsers
+
+* If `window.nw` or `window.require` is not detected, it just passes the URL directly into an `img` tag. No caching is performed. Useful for codebases that are used for both Web and Desktop builds.
