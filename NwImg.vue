@@ -72,7 +72,7 @@ export default {
   },
   computed: {
     isNw: function () {
-      return window.nw && window.require;
+      return !!(window.nw && window.require);
     },
     /**
      * Encodes all characters that are not file system safe in a lossless manner.
