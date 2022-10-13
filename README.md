@@ -3,6 +3,9 @@
 Caches copies of online images locally and loads them first if available
 
 
+Should work fine in Vue 2 or Vue 3.
+
+
 * * *
 
 
