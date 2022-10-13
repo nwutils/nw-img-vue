@@ -49,11 +49,13 @@ export default {
     },
     saveImageToAppData: function () {
       const fs = window.require('fs');
-      let http = window.require('http');
       const Stream = window.require('stream').Transform;
 
+      let http;
       if (this.src.startsWith('https')) {
         http = window.require('https');
+      } else {
+        http = window.require('http');
       }
 
       http.request(this.src, (response) => {
