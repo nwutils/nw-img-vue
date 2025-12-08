@@ -1,6 +1,6 @@
 {
   "name": "nw-img-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache online images locally and load cached offline images",
   "main": "index.js",
   "repository": {
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/nwutils/nw-img-vue/issues"
   },
-  "homepage": "https://github.com/nwutils/nw-img-vue#readme"
+  "homepage": "https://github.com/nwutils/nw-img-vue#readme",
+  "volta": {
+    "node": "25.2.1",
+    "npm": "11.6.4"
+  }
 }
