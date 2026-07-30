@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/nwutils/nw-img-vue/issues"
   },
-  "homepage": "https://github.com/nwutils/nw-img-vue#readme"
+  "homepage": "https://github.com/nwutils/nw-img-vue#readme",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.5.0"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": "11.17.0"
+    }
+  }
 }
