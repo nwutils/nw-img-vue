@@ -1,6 +1,6 @@
 {
   "name": "nw-img-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cache online images locally and load cached offline images",
   "main": "index.js",
   "repository": {
@@ -27,7 +27,7 @@
     },
     "packageManager": {
       "name": "npm",
-      "version": "11.17.0"
+      "version": "12.0.2"
     }
   }
 }
