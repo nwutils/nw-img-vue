@@ -9,11 +9,10 @@ on:
     types: [published]
 
 jobs:
-  # Single deploy job since we're just deploying
-  release:
+  Release:
     runs-on: ubuntu-latest
     permissions:
-      # Required for OIDC to let NPM registry know
+      # Required for OIDC to let npm registry know
       # that this workflow is trusted
       id-token: write
       contents: read
